@@ -12,7 +12,7 @@ namespace _2602
         {
             Random engine = new Random();
 
-            int secretNumber = engine.Next(1000) + 1;
+            int secretNumber = engine.Next(100) + 1;
 
             Console.WriteLine(secretNumber);
         }
